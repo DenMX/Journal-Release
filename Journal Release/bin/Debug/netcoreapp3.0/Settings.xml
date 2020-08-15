@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <programs>
+    <program name="Standart">
+      <program name="">
+        <path>ping</path>
+        <parametr>8.8.8.8</parametr>
+      </program>
+      <program name="">
+        <path>ipconfig</path>
+        <parametr>/all</parametr>
+      </program>
+    </program>
+    <program name="DEV" />
+  </programs>
+  <drivers>
+    <driver name="600g4">
+      <driver name="CHECK CHECK">
+        <path>mkdir</path>
+        <parametr>C:\@test@</parametr>
+      </driver>
+    </driver>
+    <driver name="AdasA" />
+    <driver name="HP123" />
+    <driver name="HP400g5" />
+    <driver name="HP600g4" />
+    <driver name="t1000" />
+    <driver name="TEST" />
+    <driver name="TestModel" />
+    <driver name="TTTT" />
+    <driver name="WTF" />
+    <driver name="WTF" />
+    <driver name="WHERE" />
+    <driver name="ISITWORKING" />
+  </drivers>
+  <settings>sda</settings>
+  <biosSettings>
+    <model name="600g4">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="AdasA">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="HP123">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="HP400g5">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="HP600g4">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="t1000">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="TEST">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="TestModel">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="TTTT">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="WTF">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="WTF">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="WHERE">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+    <model name="ISITWORKING">
+      <biosScript />
+      <installingPassword />
+      <resetingPassword />
+    </model>
+  </biosSettings>
+</Settings>

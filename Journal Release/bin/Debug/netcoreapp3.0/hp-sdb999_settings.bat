@@ -1,0 +1,2 @@
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb999 -h -u ANTON\vasya -p asdas Set-ExecutionPolicy Unrestricted
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb999 -h -u ANTON\vasya -p asdas -d powershell -f D:\Scripts\test\hp-sdb999_Settings.ps1

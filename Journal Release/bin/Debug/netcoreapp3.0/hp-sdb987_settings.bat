@@ -1,0 +1,2 @@
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb987 -h -u ANTON\vasya -p asd Set-ExecutionPolicy Unrestricted
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb987 -h -u ANTON\vasya -p asd -d powershell -f D:\Scripts\test\hp-sdb987_Settings.ps1

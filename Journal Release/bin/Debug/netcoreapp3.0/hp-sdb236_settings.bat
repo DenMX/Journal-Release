@@ -1,0 +1,3 @@
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb236 -h -u ANTON\vasya -p asd Set-ExecutionPolicy Unrestricted
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb236 -h -u ANTON\vasya -p asd -d powershell -f D:\Scripts\test\hp-sdb236_Settings.ps1C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb236 -h -u ANTON\vasya -p rfgh Set-ExecutionPolicy Unrestricted
+C:\Users\vasya\PsExec\PsExec.exe \\hp-sdb236 -h -u ANTON\vasya -p rfgh -d powershell -f D:\Scripts\test\hp-sdb236_Settings.ps1

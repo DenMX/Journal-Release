@@ -1,0 +1,34 @@
+﻿<Page x:Class="Journal_Release.Manual"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Journal_Release"
+      mc:Ignorable="d"
+      Title="Manual" Width="205" Height="490">
+
+    <Grid Background="White">
+        <StackPanel x:Name="Panel">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBox x:Name="pcName01" KeyDown="TextCheck1"/>
+                <Button x:Name="cancel1" Grid.Column="0" Style="{StaticResource CancelButton}" Click="Cancel1_Click"/>
+            </StackPanel>
+            <ComboBox Name="pcModel01"/>
+            <CheckBox x:Name="Image01" Content="Образ"/>
+            <CheckBox x:Name="Windows01" Content="Windows" />
+            <CheckBox x:Name="locAdm01" Content="ЛокАдмин" />
+            <CheckBox x:Name="Domain01"  Content="Ввод в домен" />
+            <CheckBox x:Name="AdmGroup01"  Content="Группа локАдминов" />
+            <CheckBox x:Name="DelUser01" Content="Удалить учетку" />
+            <CheckBox x:Name="Drivers01" Content="Дрова" />
+            <CheckBox x:Name="Soft01"  Content="Программы" />
+            <CheckBox x:Name="Services01" Content="Службы/питание/RDP" />
+            <CheckBox x:Name="Wsus01"  Content="WSUS/Обновления" />
+            <CheckBox x:Name="AdmPassCheck01"  Content="Пароль админа" />
+            <TextBox x:Name="AdmPass01" Style="{StaticResource PassTextBox}"/>
+            <CheckBox x:Name="BiosPassCheck01" Content="Пароль БОИСа" />
+            <TextBox x:Name="BiosPass01" Style="{StaticResource PassTextBox}"/>
+            <Button x:Name="AddPC01" Content="Готов" Click="AddPc1" />
+        </StackPanel>
+    </Grid>
+</Page>

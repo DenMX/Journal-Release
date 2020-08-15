@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\vasya\source\repos\Journal Release\Journal Release\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Auto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangePass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Info.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manual.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NewElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Password.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SQL.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StartPass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Auto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChangePass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Info.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manual.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Password.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SQL.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StartPass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

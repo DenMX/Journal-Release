@@ -1,0 +1,60 @@
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.exe
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.deps.json
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.runtimeconfig.json
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.runtimeconfig.dev.json
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Journal Release.pdb
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\itextsharp.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Microsoft.Office.Interop.Word.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Security.AccessControl.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\bin\Release\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.csprojAssemblyReference.cache
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\ChangePass.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Info.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\MainWindow.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\SQL.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\StartPass.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\App.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release_MarkupCompile.cache
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release_MarkupCompile.lref
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\ChangePass.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Info.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\MainWindow.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\SQL.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\StartPass.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.g.resources
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.AssemblyInfoInputs.cache
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.AssemblyInfo.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.csproj.CopyComplete
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.dll
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.pdb
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Auto.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Manual.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\NewElement.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Password.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\SettingsWindow.g.cs
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\App.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Auto.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\MainStyle.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Manual.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\NewElement.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Password.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\SettingsWindow.baml
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.csproj.CoreCompileInputs.cache
+C:\Users\vasya\source\repos\Journal Release\Journal Release\obj\Release\netcoreapp3.0\Journal Release.genruntimeconfig.cache

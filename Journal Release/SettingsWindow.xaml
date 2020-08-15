@@ -1,0 +1,151 @@
+﻿<Window x:Class="Journal_Release.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Journal_Release"
+        mc:Ignorable="d"
+        Title="SettingsWindow" Height="500" Width="800" ResizeMode="NoResize" Icon="PIctures\Settings.jpg">
+    <Grid>
+        <TabControl TabStripPlacement="Left" BorderThickness="1">
+            <TabItem Header="Программы">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <ComboBox Name="SoftType" Width="200" SelectionChanged="OnSoftTypeChange"/>
+                        <Button Content="+" Style="{StaticResource CancelButton}" Click="AddSoftType"/>
+                    </StackPanel>
+                    
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <DataGrid x:Name="SoftGrid" Height="280" FontSize="20">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Название" Binding="{Binding SoftName}"/>
+                                <DataGridTextColumn Header="Путь" Binding="{Binding SoftPath}"/>
+                                <DataGridTextColumn Header="Параметры" Binding="{Binding SoftParametr}"/>
+                                <DataGridTemplateColumn Header="Удалить">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="SoftDelete" Style="{StaticResource CancelButton}">x</Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+                    <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Название софта:" Grid.Row="0" Grid.Column="0"/>
+                        <TextBox x:Name="SoftName" Grid.Row="0" Grid.Column="1"/>
+                        <Label Content="Путь:" Grid.Row="1" Grid.Column="0"/>
+                        <TextBox x:Name="SoftPath" Grid.Row="1" Grid.Column="1"/>
+                        <Button x:Name="SoftPathButton" Content="..." Style="{StaticResource CancelButton}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Click="SoftPath_Click"/>
+                        <Label Content="Параметры:" Grid.Row="1" Grid.Column="2"/>
+                        <TextBox x:Name="SoftParametrs" Grid.Row="1" Grid.Column="3"/>
+                        <Button x:Name="AddSoft" Content="+" Click="AddSoft_Click" Grid.Column="4" Grid.Row="2"/>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Драйверы">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <ComboBox Name="DriverModel" Width="200" SelectionChanged="OnModelChange"/>
+                        <Button Content="+" Click="AddModel_Click" Style="{StaticResource CancelButton}"/>
+                    </StackPanel>
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <DataGrid x:Name="DriversGrid" Height="280" MaxHeight="300" FontSize="20">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Название" Binding="{Binding DriverName}" FontSize="20"/>
+                                <DataGridTextColumn Header="Путь" Binding="{Binding DriverPath}" FontSize="20"/>
+                                <DataGridTextColumn Header="Параметры" Binding="{Binding DriverParametr}"/>
+                                <DataGridTemplateColumn Header="Удалить">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="DriverDelete" Style="{StaticResource CancelButton}">x</Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Название софта" Grid.Row="0" Grid.Column="0"/>
+                        <TextBox x:Name="DriverName" Grid.Row="0" Grid.Column="1"/>
+                        <Label Content="Путь" Grid.Row="1" Grid.Column="0"/>
+                        <TextBox x:Name="DriverPath" Grid.Row="1" Grid.Column="1"/>
+                        <Button Content="..." Style="{StaticResource CancelButton}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Click="DriverPath_Click"/>
+                        <Label Content="Параметры" Grid.Row="1" Grid.Column="2"/>
+                        <TextBox x:Name="DriverParametrs" Grid.Row="1" Grid.Column="2"/>
+                    </Grid>
+                    <Button x:Name="AddDriver" Content="+" HorizontalAlignment="Right" Click="AddDriver_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Настройки">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Orientation="Vertical" CanVerticallyScroll="True" CanHorizontallyScroll="True" Height="Auto" Width="Auto">
+                        <Label Content="PowerShell:"/>
+                        <TextBox x:Name="PsText" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" Text="" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Width="655" Height="325"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="PsExec" VerticalAlignment="Bottom"/>
+                            <TextBox x:Name="Path_PsExec"/>
+                            <Button Content="+" Style="{StaticResource CancelButton}" VerticalAlignment="Bottom" Click="SetPsExecPath"/>
+                            <Label Content="Путь скриптов" VerticalAlignment="Bottom"/>
+                            <TextBox Name="ScriptFolder"  />
+                            <Button x:Name="Save" Content="Сохранить" Width="120" Click="SettingsSave_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="BIOS" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <DockPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <ComboBox Name="biosModel" Grid.ColumnSpan="2" SelectionChanged="OnBiosModelChange"/>
+                        <TextBox x:Name="biosSettingsBox" Grid.Row="1" Grid.RowSpan="2" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" HorizontalAlignment="Left" MinLines="2" Margin="0" Height="330" Width="325" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AutoWordSelection="True"/>
+                        <TextBox x:Name="setBiosPassword" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" MinLines="2" Height="160" Width="335" Margin="0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                            <TextBox.ToolTip>
+                                <TextBlock Text="PS script installing bios password"/>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                        <TextBox x:Name="resetBiosPassword" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" Height="160" Width="335" Margin="0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                            <TextBox.ToolTip>
+                                <TextBlock Text="PS script for reset BIOS password"/>
+                            </TextBox.ToolTip>
+                        </TextBox>
+                        <Button Content="Сохранить" Grid.Column="1" Grid.Row="3" Width="100" Height="30" Click="OnBiosScriptChanged"/>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

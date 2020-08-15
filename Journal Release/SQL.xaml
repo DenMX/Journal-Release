@@ -1,0 +1,13 @@
+﻿<Window x:Class="Journal_Release.SQL"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Journal_Release"
+        mc:Ignorable="d"
+        Title="SQL" Height="450" Width="800" ResizeMode="NoResize" Icon="Pictures\SQL.jpg">
+    <Grid>
+        <TextBox x:Name="SqlText" Height="300" Width="500" HorizontalAlignment="Left" Margin="30" Background="AliceBlue" FontFamily="Perpetua" FontSize="24" FontStyle="Italic" Opacity="50" TextWrapping="Wrap" AcceptsTab="True" AcceptsReturn="True"/>
+        <Button x:Name="Sql_Click" Content="Выполнить" HorizontalAlignment="Right" Margin="30" Height="50" Width="150" FontFamily="Perpetua" FontSize="20" FontStyle="Italic" Click="ExecuteSql"/>
+    </Grid>
+</Window>

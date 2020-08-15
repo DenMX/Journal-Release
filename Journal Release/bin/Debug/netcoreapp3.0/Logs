@@ -1,0 +1,8 @@
+23.06.2020 17:30:36:Could not find a part of the path 'D:\delete\hp-sdb236_Settings.ps1'.23.06.2020 17:31:33:Could not find a part of the path 'D:\delete\hp-sdb236_Settings.ps1'.System.Runtime.InteropServices.COMException (0x800401D0): Ошибка при вызове OpenClipboard (0x800401D0 (CLIPBRD_E_CANT_OPEN))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Windows.Clipboard.Flush()
+   at System.Windows.Clipboard.CriticalSetDataObject(Object data, Boolean copy)
+   at System.Windows.Clipboard.SetDataInternal(String format, Object data)
+   at System.Windows.Clipboard.SetText(String text, TextDataFormat format)
+   at System.Windows.Clipboard.SetText(String text)
+   at Journal_Release.MainWindow.CellCopy_Click(Object sender, MouseButtonEventArgs e) in C:\Users\vasya\source\repos\Journal Release\Journal Release\MainWindow.xaml.cs:line 216Ошибка при вызове OpenClipboard (0x800401D0 (CLIPBRD_E_CANT_OPEN))

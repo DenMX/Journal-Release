@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Journal_Release</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pictures\Background5.jpg" />
+    <None Remove="Pictures\Background7.jpg" />
+    <None Remove="Pictures\Background_Icon.jpg" />
+    <None Remove="Pictures\ExportPDF.jpg" />
+    <None Remove="Pictures\ImportDB.jpg" />
+    <None Remove="Pictures\ImportWord.jpg" />
+    <None Remove="Pictures\Info.jpg" />
+    <None Remove="Pictures\Path.jpg" />
+    <None Remove="Pictures\Refresh.jpg" />
+    <None Remove="Pictures\Settings.jpg" />
+    <None Remove="Pictures\SQL.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1003" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\Background5.jpg" />
+    <Resource Include="Pictures\Background7.jpg" />
+    <Resource Include="Pictures\Background_Icon.jpg" />
+    <Resource Include="Pictures\ExportPDF.jpg" />
+    <Resource Include="Pictures\ImportDB.jpg" />
+    <Resource Include="Pictures\ImportWord.jpg" />
+    <Resource Include="Pictures\Info.jpg" />
+    <Resource Include="Pictures\Path.jpg" />
+    <Resource Include="Pictures\Refresh.jpg" />
+    <Resource Include="Pictures\Settings.jpg" />
+    <Resource Include="Pictures\SQL.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Settings2.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings2.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings2.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
